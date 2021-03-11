@@ -1,0 +1,75 @@
+/* A simple calculator program that prints the results of calculations to the console*/
+
+
+public class Calculator {
+
+
+public void calculator(){
+
+
+}
+
+
+public int add(int a, int b){
+
+int add;
+add = a + b;
+
+
+return add;
+
+}
+
+
+public int subtract(int a, int b){
+
+int subtract;
+subtract = a - b;
+
+return subtract;
+
+}
+
+
+
+public int multiply(int a, int b){
+
+int multiply;
+multiply = a*b;
+
+return multiply;
+
+}
+
+
+public int divide(int a, int b){
+
+  int divide;
+  divide = a/b;
+  return divide;
+}
+
+
+
+public int modulo(int a, int b){
+
+  int modulo;
+  modulo = a%b;
+  return modulo;
+}
+
+
+public static void main(String[] args){
+
+Calculator calc = new Calculator();
+
+System.out.println(calc.add(5, 7));
+
+System.out.println(calc.subtract(45, 11));
+
+
+
+
+}
+
+}
